@@ -45,5 +45,9 @@
     "lisp": "sbcl --script",
     "kit": "kitc --run"
   },
-  "C_Cpp.codeAnalysis.clangTidy.headerFilter": ""
+  "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
+  "files.associations": {
+    "*.ejs": "html",
+    "iostream": "cpp"
+  }
 }
