@@ -49,5 +49,7 @@
   "files.associations": {
     "*.ejs": "html",
     "iostream": "cpp"
-  }
+  },
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true
 }
