@@ -5,6 +5,7 @@
       "label": "C/C++: g++-12 build active file",
       "command": "g++",
       "args": [
+        "-std=c++17",
         "-fdiagnostics-color=always",
         "-g",
         "${file}",
