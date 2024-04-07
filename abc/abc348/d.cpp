@@ -36,17 +36,14 @@ int main(){
         auto pos = q.front(); q.pop();
         int y = pos[0], x = pos[1], hp = pos[2];
         
-        if(hp > visited[y][x]){
-            visited[y][x] = hp;
-        }else{
-            continue;
-        }
+        if(hp > visited[y][x]) visited[y][x] = hp;
+        else continue;
         
         if(y == th && x == tw) {
             cout << "Yes" << endl;
             return 0;
         }
-        if(kusuri[y][x] != -1) hp = max(hp, kusuri[y][x]);
+        hp = max(hp, kusuri[y][x]);
         
         rep(i, 0, 4) {
             int ny = y + dy[i];
